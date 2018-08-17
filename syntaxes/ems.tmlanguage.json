@@ -1,0 +1,34 @@
+{
+    "scopeName": "source.ems",
+    "fileTypes": [
+        "ems"
+    ],
+    "patterns": [
+        {
+            "name": "comment.line.number-sign",
+            "match": "#.*"
+        },
+        {
+            "name": "support.function",
+            "match": "(create|add|addprop|commit|compact|connect|delete|disconnect|echo|exit|grant|help|purge|remove|removeprop|resume|revoke|set|setprop|show|transaction)"
+        },
+        {
+            "name": "support.type",
+            "match": "(queue|topic|bridge|route|user|all|connection|durable|factory|group|jndiname|message)"
+        },
+        {
+            "name": "support.type",
+            "match": "(sender_name_enforced|sender_name|channel|exclusive|expiration|export|flowControl|global|import|maxbytes|maxmsgs|maxRedelivery|overflowPolicy|prefetch|redeliveryDelay|secure|store|trace|selector|receive|send|browse|view|subscribe|publish|use_durable|rejectIncoming)"
+        },
+        {
+            "name": "string.quoted.double.untitled",
+            "begin": "\"",
+            "end": "\""
+        },
+        {
+            "name": "variable.other",
+            "begin": "\\${",
+            "end": "}"
+        }
+    ]
+}

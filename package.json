@@ -1,0 +1,22 @@
+{
+    "name": "ems",
+    "displayName": "TIBCO EMS Syntax",
+    "description": "TIBCO EMS Syntax language support for Visual Studio Code",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": ">=0.9.0-pre.1"
+    },
+    "publisher": "Pascal Reitermann",
+    "contributes": {
+        "languages": [{
+            "id": "ems",
+            "aliases": ["EMS"],
+            "extensions": [".ems",".emsx"]
+        }],
+        "grammars": [{
+            "language": "ems",
+            "scopeName": "source.ems",
+            "path": "./syntaxes/ems.tmLanguage.json"
+        }]
+    }
+}
