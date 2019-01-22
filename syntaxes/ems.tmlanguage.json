@@ -10,7 +10,7 @@
         },
         {
             "name": "support.function",
-            "match": "(create|add|addprop|commit|compact|connect|delete|disconnect|echo|exit|grant|help|purge|remove|removeprop|resume|revoke|set|setprop|show|transaction)"
+            "match": "(create|addprop|add|commit|compact|connect|delete|disconnect|echo|exit|grant|help|purge|removeprop|remove|resume|revoke|setprop|set|show|transaction)"
         },
         {
             "name": "support.type",
