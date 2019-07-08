@@ -1,2 +1,5 @@
-# EMSSyntax
-Adds TIBCO EMS syntax language support to Visual Studio Code.
+# EMS Syntax
+This Visual Studio Code plugin adds syntax highlighting for TIBCO EMS scripts.
+
+### Example:
+![Previw](images/preview.png)
