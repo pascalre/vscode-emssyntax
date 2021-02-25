@@ -10,15 +10,19 @@
         },
         {
             "name": "support.function",
-            "match": "(create|addprop|add|commit|compact|connect|delete|disconnect|echo|exit|grant|help|purge|removeprop|remove|resume|revoke|setprop|set|show|transaction)"
+            "match": "(create|addprop|add|commit|compact|delete|disconnect|echo|exit|grant|help|purge|removeprop|remove|resume|revoke|setprop|set|show|transaction)"
         },
         {
             "name": "support.type",
-            "match": "(queue|topic|bridge|route|user|all|connection|durable|factory|group|jndiname|message)"
+            "match": "(admin|queue|topic|generic|bridge|route|user|all|connection|durable|factory|group|jndiname|message|server)"
         },
         {
-            "name": "support.type",
-            "match": "(sender_name_enforced|sender_name|channel|exclusive|expiration|export|flowControl|global|import|maxbytes|maxmsgs|maxRedelivery|overflowPolicy|prefetch|redeliveryDelay|secure|store|trace|selector|receive|send|browse|view|subscribe|publish|use_durable|rejectIncoming)"
+            "name": "support.function",
+            "match": "(max_msg_memory|authorization|password|log_trace|console_trace|client_trace|msg_swapping|zone_name|zone_type|topic_prefetch|view-connection|view-durable|view-destination|view-server|reconnect_attempt_count|reconnect_attempt_delay|reconnect_attempt_timeout|connect_attempt_count|connect_attempt_delay|connect_attempt_timeout|connect|sender_name_enforced|sender_name|channel|exclusive|expiration|export|flowControl|global|import|maxbytes|maxmsgs|maxRedelivery|overflowPolicy|prefetch|redeliveryDelay|secure|store|trace|selector|receive|send|browse|view|subscribe|publish|use_durable|rejectIncoming|url|modify)"
+        },
+        {
+            "name": "support.variable",
+            "match": "(ssl_dh_size|ssl_server_ciphers|ssl_require_client_cert|ssl_require_route_cert_only|ssl_use_cert_username|ssl_cert_user_specname|ssl_server_identity|ssl_server_key|ssl_password|ssl_server_issuer|ssl_server_trusted|ssl_crl_path|ssl_crl_update_interval|fips140-2|ssl_vendor|ssl_identity|ssl_issuer|ssl_private_key|ssl_trusted|ssl_verify_hostname|ssl_verify_host|ssl_expected_hostname|ssl_ciphers|ssl_auth_only)"
         },
         {
             "name": "string.quoted.double.untitled",
